@@ -47,14 +47,6 @@ import android.widget.TextView;
 
 import android.media.MediaRecorder;
 
-
-import java.net.URISyntaxException;
-import org.json.JSONException;
-import org.json.JSONObject;
-import io.socket.client.IO;
-import io.socket.client.Socket;
-import io.socket.emitter.Emitter;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -107,8 +99,6 @@ public class MainActivity extends AppCompatActivity implements
     // Tracks the bound state of the service.
     private boolean mBound = false;
 
-    private io.socket.client.Socket mSocket;
-
     // UI elements.
     private Button mRequestLocationUpdatesButton;
     private Button mRemoveLocationUpdatesButton;
@@ -139,16 +129,12 @@ public class MainActivity extends AppCompatActivity implements
         myReceiver = new MyReceiver();
         setContentView(R.layout.activity_main);
 
-
-        try {
-            mSocket = IO.socket("http://13.124.206.190:3000");
-            mSocket.connect();
-            mSocket.on(Socket.EVENT_CONNECT, onConnect);
-        } catch(URISyntaxException e) {
-            e.printStackTrace();
-        }
-
-
+//        // Check that the user hasn't revoked permissions by going to Settings.
+//        if (Utils.requestingLocationUpdates(this)) {
+//            if (!checkPermissions()) {
+//                requestPermissions();
+//            }
+//        }
         if (checkPermissions()) {
             //start();
         }
@@ -275,16 +261,6 @@ public class MainActivity extends AppCompatActivity implements
 //                Manifest.permission.ACCESS_FINE_LOCATION);
 
     }
-
-
-    private Emitter.Listener onConnect = new Emitter.Listener() {
-        @Override
-        public void call(Object... args) {
-            mSocket.emit("clientMessage", "hi");
-        }
-    };
-
-
 //
 
 
