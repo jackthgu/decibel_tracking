@@ -63,12 +63,23 @@ import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+
+import java.net.URISyntaxException;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import io.socket.client.IO;
+import io.socket.client.Socket;
+import io.socket.emitter.Emitter;
 
 import javax.annotation.Nullable;
 
@@ -166,6 +177,9 @@ public class LocationUpdatesService extends Service {
 
     private MediaRecorder mRecorder = null;
     private double mEMA = 0.0;
+
+    private io.socket.client.Socket mSocket;
+
 
     /**
      * Realtime location save in firestore or firebase*/
@@ -479,17 +493,61 @@ public class LocationUpdatesService extends Service {
         Log.d("resMLL", String.valueOf(longitude));
 
 
+        Emitter.Listener onConnect = new Emitter.Listener() {
+            @Override
+            public void call(Object... args) {
+                JSONObject dateData = new JSONObject();
+                    JSONObject timeData = new JSONObject();
+                        JSONObject latitudeData = new JSONObject();
+                        JSONObject longitudeData = new JSONObject();
+                        JSONObject dBData = new JSONObject();
+                        //위와 같은 형태
 
-        //start();
+                JSONArray full_Data = new JSONArray();
+                JSONArray data_time = new JSONArray();
+                JSONArray data = new JSONArray();
+                try {
+                    latitudeData.put("latitude",latitude);
+                    longitudeData.put("longitude",longitude);
+                    dBData.put("dB",dB);
+                    timeData.put("time",getTime());
+                    dateData.put("date",getDate());
+
+                    data.put(latitudeData);
+                    data.put(longitudeData);
+                    data.put(dBData);
+
+                    data_time.put(timeData);
+                    data_time.put(data);
+
+                    full_Data.put(dateData);
+                    full_Data.put(data_time);
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                mSocket.emit("fromClient", full_Data);
+            }
+        };
+
+        try {
+            mSocket = IO.socket("http://192.168.0.16:3000");
+            mSocket.connect();
+            mSocket.on(Socket.EVENT_CONNECT, onConnect);
+        } catch(URISyntaxException e) {
+            e.printStackTrace();
+    }
+
+        /* 원래 파베로 보내던 것
         onTokenRefresh();
         DatabaseReference mDatabase;
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
 
-
         mDatabase.child(getDate()).child(token).child(getTime()).child("dB").setValue(dB);
         mDatabase.child(getDate()).child(token).child(getTime()).child("latitude").setValue(latitude);
         mDatabase.child(getDate()).child(token).child(getTime()).child("longitude").setValue(longitude);
+        */
 
     }
 
