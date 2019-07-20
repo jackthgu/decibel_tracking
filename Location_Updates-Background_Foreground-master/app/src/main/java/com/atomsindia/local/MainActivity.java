@@ -113,6 +113,8 @@ public class MainActivity extends AppCompatActivity implements
     private Button mRequestLocationUpdatesButton;
     private Button mRemoveLocationUpdatesButton;
 
+    private Button btnTest;
+
     private static final int REQUEST_PERMISSION_CODE = 1000;
 
     // Monitors the state of the connection to the service.
@@ -141,12 +143,13 @@ public class MainActivity extends AppCompatActivity implements
 
 
         try {
-            mSocket = IO.socket("http://13.124.206.190:3000");
+            mSocket = IO.socket("http://13.124.206.190:8080");
             mSocket.connect();
             mSocket.on(Socket.EVENT_CONNECT, onConnect);
         } catch(URISyntaxException e) {
             e.printStackTrace();
         }
+
 
 
         if (checkPermissions()) {
@@ -168,6 +171,15 @@ public class MainActivity extends AppCompatActivity implements
 
         mRequestLocationUpdatesButton = (Button) findViewById(R.id.request_location_updates_button);
         mRemoveLocationUpdatesButton = (Button) findViewById(R.id.remove_location_updates_button);
+        btnTest = findViewById(R.id.btnTest);
+
+        btnTest.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+
+                mSocket.emit("noty_location");
+            }
+        });
 
         mRequestLocationUpdatesButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -195,13 +207,13 @@ public class MainActivity extends AppCompatActivity implements
         bindService(new Intent(this, LocationUpdatesService.class), mServiceConnection,
                 Context.BIND_AUTO_CREATE);
 
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
-                || ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
+                || ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             //권한이 없을 경우 최초 권한 요청 또는 사용자에 의한 재요청 확인
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this, android.Manifest.permission.ACCESS_FINE_LOCATION) &&
-                    ActivityCompat.shouldShowRequestPermissionRationale(this, android.Manifest.permission.ACCESS_COARSE_LOCATION)) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_FINE_LOCATION) &&
+                    ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_COARSE_LOCATION)) {
                 // 권한 재요청
-                ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.ACCESS_COARSE_LOCATION}, 100);
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION}, 100);
                 //return;
             }
 //            if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.RECORD_AUDIO) &&
@@ -414,6 +426,8 @@ public class MainActivity extends AppCompatActivity implements
                 Toast.makeText(MainActivity.this, Utils.getLocationText(location),
                         Toast.LENGTH_SHORT).show();
             }
+
+            mSocket.emit("noty_location",Utils.getLocationText(location).trim());
         }
     }
 

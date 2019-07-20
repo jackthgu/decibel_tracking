@@ -493,50 +493,37 @@ public class LocationUpdatesService extends Service {
         Log.d("resMLL", String.valueOf(longitude));
 
 
-        Emitter.Listener onConnect = new Emitter.Listener() {
-            @Override
-            public void call(Object... args) {
-                JSONObject dateData = new JSONObject();
-                    JSONObject timeData = new JSONObject();
-                        JSONObject latitudeData = new JSONObject();
-                        JSONObject longitudeData = new JSONObject();
-                        JSONObject dBData = new JSONObject();
-                        //위와 같은 형태
+        JSONObject dateData = new JSONObject();
+        JSONObject timeData = new JSONObject();
+        JSONObject latitudeData = new JSONObject();
+        JSONObject longitudeData = new JSONObject();
+        JSONObject dBData = new JSONObject();
+        //위와 같은 형태
 
-                JSONArray full_Data = new JSONArray();
-                JSONArray data_time = new JSONArray();
-                JSONArray data = new JSONArray();
-                try {
-                    latitudeData.put("latitude",latitude);
-                    longitudeData.put("longitude",longitude);
-                    dBData.put("dB",dB);
-                    timeData.put("time",getTime());
-                    dateData.put("date",getDate());
-
-                    data.put(latitudeData);
-                    data.put(longitudeData);
-                    data.put(dBData);
-
-                    data_time.put(timeData);
-                    data_time.put(data);
-
-                    full_Data.put(dateData);
-                    full_Data.put(data_time);
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-                mSocket.emit("fromClient", full_Data);
-            }
-        };
-
+        JSONArray full_Data = new JSONArray();
+        JSONArray data_time = new JSONArray();
+        JSONArray data = new JSONArray();
         try {
-            mSocket = IO.socket("http://192.168.0.16:3000");
-            mSocket.connect();
-            mSocket.on(Socket.EVENT_CONNECT, onConnect);
-        } catch(URISyntaxException e) {
+            latitudeData.put("latitude",latitude);
+            longitudeData.put("longitude",longitude);
+            dBData.put("dB",dB);
+            timeData.put("time",getTime());
+            dateData.put("date",getDate());
+
+            data.put(latitudeData);
+            data.put(longitudeData);
+            data.put(dBData);
+
+            data_time.put(timeData);
+            data_time.put(data);
+
+            full_Data.put(dateData);
+            full_Data.put(data_time);
+
+        } catch (JSONException e) {
             e.printStackTrace();
-    }
+        }
+        mSocket.emit("send_location", full_Data);
 
         /* 원래 파베로 보내던 것
         onTokenRefresh();
