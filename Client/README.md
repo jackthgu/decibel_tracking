@@ -1,21 +1,26 @@
-# socket.io-android-chat
+# Location_Updates-Background_Foreground
 
-This is a simple chat demo for socket.io and Android. You can connect to [https://socket-io-chat.now.sh](https://socket-io-chat.now.sh) using this app.
+Today(20/03/2019).
 
-## Installation
+After 2 months of searching I found a best code for Oreo and above devices.
 
-1. Clone the project.
-2. In Android Studio, chose **File > Import Project** and select the root folder of the project.
-   Android Studio may ask you to choose the type of project you are importing. If this is the case, make sure to choose **Import project from external model** and select the **Gradle** option.
+**_Feature of this Code_**
 
-## Tutorial
+ **1.** This code works very well, here you can update a location when app is in background or in foreground.
+ 
+ **2.** It is also work when you device will lock.
+ 
+ **3.** It will work when user offline.
+ 
+ I am searching a this type of code which will works in Oreo and Pie devices very well.
 
-http://socket.io/blog/native-socket-io-and-android/
+So I can say this is the best code for location updates and fullfil all my requirements.
 
-## Misc
-https://github.com/socketio/socket.io/issues/2823
+**_Note_**
 
-## License
+I founded this code in location sample code of **Google.**
 
-MIT
+**Code Provided By a Google**
 
+**_Need Help_**
+I want to turn on or turn off feature of location with help of toggle button instead of buttons
