@@ -1,0 +1,579 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:design:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f4a01c6a40f1934ed89fc642d88ba498/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b17f357405be037f8b1fa961057e0bad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1f6546854373b727cfe78f2f332596e6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0548fb51cdb8bfba4dc9b39889295313/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3ff3ceb48424e71d2c198d97e5d4ed7e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:17:1-38:12
+MERGED from [com.firebase:geofire-android:2.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8cc594dc594b13972a9e20a22940030b/AndroidManifest.xml:1:1-5:12
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3b79105b9ad9619756e9028770bd6f89/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/5fa4046490207d3eef1160653ae895d9/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/33675cf05c9aa508eb2b9d1a3973184b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d2e5e7bdb96d7c687be7d86f83f774c5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2efb2691636c8d35e92ff51720f2d94/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/982dd486553122c1f72a36866de4dd5c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/15cc278f2669ddbd1addcdbe5558e937/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/32459bc1340bee681647b8597d9b44d4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3511d01ddcce7b797a7836129d3c7ce5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e82ade0f25d3f1899deb6aba29a9d29b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/599f4100f740b1c1a3e6247458ade126/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/931a66a7ac95bf3f85ee1c64a47d04f4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/80838d4f9225631fc31c6fb72dfffc5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/72409b22dfcda4ca61712a2c026d6613/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e6ac06643a1c086b3e6c5434af006276/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1fa178041be4a033799a5e750e04d9ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8f955bae025ebd97aef218f833ba82cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1907531035bca7b96603623d22216839/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/298d79c5c8107ee4b60850c48354a122/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e3813ecbea5db1e09c706f164a9d82f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/cebeeed9e966ccaf261e5b1b41a92c08/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0a1c704f06a9480b291155cc33d2203d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/c9575dfe349ef7f8d247688955828879/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/21ab5c7f6d82c2a9d4cb27f59caab773/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d25b29bc0dd389a9b1b42e12da56d83a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7ed019c99fad4d4f5810675978e9f545/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/379c12e7ef5780d963cf3fa3886304c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0b5ddc3c7689566d28d23348a25d876c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b10acee003e4d7560d723da9807fede2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/59b77b193603790c1a10e609f9b1ee3d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a52da7f3eeb38a2fe2cec41009274158/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/c3c7d8e1376d90f28a01a9902ab69d57/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7393e4f9f2225860367bb054a469f8be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/62f3ba4a795b3d9386960706548fa010/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b9248715898959dd6b2be0db40b6a75c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/77955424755a19e17ad9a65086f9c664/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/05d71d6a7e2dbcb8e7011c6b9eab3982/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8afc81350e8278e077cab9b2cdba939a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/4f94ffca8aa0b658ad47db04017b1d71/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/532692f78f71dafad96feddae3146bd6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/ffd2e6cb1c0b09c07981300c0c047d10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b1336a7c3b61074e6eede37b19f72c85/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a72a93bcc2aae2ac78310fe7260860bf/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2b3a5ae353aa4d2e0420084aad09e13/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:24:5-67
+MERGED from [com.firebase:geofire-android:2.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8cc594dc594b13972a9e20a22940030b/AndroidManifest.xml:4:3-64
+MERGED from [com.firebase:geofire-android:2.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8cc594dc594b13972a9e20a22940030b/AndroidManifest.xml:4:3-64
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3b79105b9ad9619756e9028770bd6f89/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3b79105b9ad9619756e9028770bd6f89/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:10:22-64
+uses-feature#android.hardware.microphone
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:14:9-51
+application
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:17:5-35:19
+MERGED from [com.android.support:design:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f4a01c6a40f1934ed89fc642d88ba498/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f4a01c6a40f1934ed89fc642d88ba498/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1f6546854373b727cfe78f2f332596e6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1f6546854373b727cfe78f2f332596e6/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0548fb51cdb8bfba4dc9b39889295313/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0548fb51cdb8bfba4dc9b39889295313/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3ff3ceb48424e71d2c198d97e5d4ed7e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3ff3ceb48424e71d2c198d97e5d4ed7e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/5fa4046490207d3eef1160653ae895d9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/5fa4046490207d3eef1160653ae895d9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d2e5e7bdb96d7c687be7d86f83f774c5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d2e5e7bdb96d7c687be7d86f83f774c5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2efb2691636c8d35e92ff51720f2d94/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2efb2691636c8d35e92ff51720f2d94/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/982dd486553122c1f72a36866de4dd5c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/982dd486553122c1f72a36866de4dd5c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/15cc278f2669ddbd1addcdbe5558e937/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/15cc278f2669ddbd1addcdbe5558e937/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/32459bc1340bee681647b8597d9b44d4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/32459bc1340bee681647b8597d9b44d4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3511d01ddcce7b797a7836129d3c7ce5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3511d01ddcce7b797a7836129d3c7ce5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e82ade0f25d3f1899deb6aba29a9d29b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e82ade0f25d3f1899deb6aba29a9d29b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/599f4100f740b1c1a3e6247458ade126/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/599f4100f740b1c1a3e6247458ade126/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/931a66a7ac95bf3f85ee1c64a47d04f4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/931a66a7ac95bf3f85ee1c64a47d04f4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0b5ddc3c7689566d28d23348a25d876c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0b5ddc3c7689566d28d23348a25d876c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b10acee003e4d7560d723da9807fede2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b10acee003e4d7560d723da9807fede2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/59b77b193603790c1a10e609f9b1ee3d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/59b77b193603790c1a10e609f9b1ee3d/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b10acee003e4d7560d723da9807fede2/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:23:9-40
+activity#com.atomsindia.local.MainActivity
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:24:9-29:20
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:27:27-74
+service#com.atomsindia.local.LocationUpdatesService
+ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:30:9-33:35
+	android:enabled
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:32:9-31
+	android:exported
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:33:9-32
+	android:name
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml:31:9-47
+uses-sdk
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f4a01c6a40f1934ed89fc642d88ba498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f4a01c6a40f1934ed89fc642d88ba498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b17f357405be037f8b1fa961057e0bad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b17f357405be037f8b1fa961057e0bad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1f6546854373b727cfe78f2f332596e6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1f6546854373b727cfe78f2f332596e6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0548fb51cdb8bfba4dc9b39889295313/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0548fb51cdb8bfba4dc9b39889295313/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3ff3ceb48424e71d2c198d97e5d4ed7e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3ff3ceb48424e71d2c198d97e5d4ed7e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:20:5-44
+MERGED from [com.firebase:geofire-android:2.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8cc594dc594b13972a9e20a22940030b/AndroidManifest.xml:2:3-70
+MERGED from [com.firebase:geofire-android:2.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8cc594dc594b13972a9e20a22940030b/AndroidManifest.xml:2:3-70
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3b79105b9ad9619756e9028770bd6f89/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3b79105b9ad9619756e9028770bd6f89/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/5fa4046490207d3eef1160653ae895d9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/5fa4046490207d3eef1160653ae895d9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/33675cf05c9aa508eb2b9d1a3973184b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/33675cf05c9aa508eb2b9d1a3973184b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d2e5e7bdb96d7c687be7d86f83f774c5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d2e5e7bdb96d7c687be7d86f83f774c5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2efb2691636c8d35e92ff51720f2d94/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2efb2691636c8d35e92ff51720f2d94/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/982dd486553122c1f72a36866de4dd5c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/982dd486553122c1f72a36866de4dd5c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/15cc278f2669ddbd1addcdbe5558e937/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/15cc278f2669ddbd1addcdbe5558e937/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/32459bc1340bee681647b8597d9b44d4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/32459bc1340bee681647b8597d9b44d4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3511d01ddcce7b797a7836129d3c7ce5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3511d01ddcce7b797a7836129d3c7ce5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e82ade0f25d3f1899deb6aba29a9d29b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e82ade0f25d3f1899deb6aba29a9d29b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/599f4100f740b1c1a3e6247458ade126/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/599f4100f740b1c1a3e6247458ade126/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/931a66a7ac95bf3f85ee1c64a47d04f4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/931a66a7ac95bf3f85ee1c64a47d04f4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/80838d4f9225631fc31c6fb72dfffc5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/80838d4f9225631fc31c6fb72dfffc5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/72409b22dfcda4ca61712a2c026d6613/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/72409b22dfcda4ca61712a2c026d6613/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e6ac06643a1c086b3e6c5434af006276/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e6ac06643a1c086b3e6c5434af006276/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1fa178041be4a033799a5e750e04d9ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1fa178041be4a033799a5e750e04d9ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8f955bae025ebd97aef218f833ba82cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8f955bae025ebd97aef218f833ba82cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1907531035bca7b96603623d22216839/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/1907531035bca7b96603623d22216839/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/298d79c5c8107ee4b60850c48354a122/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/298d79c5c8107ee4b60850c48354a122/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e3813ecbea5db1e09c706f164a9d82f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/e3813ecbea5db1e09c706f164a9d82f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/cebeeed9e966ccaf261e5b1b41a92c08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/cebeeed9e966ccaf261e5b1b41a92c08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0a1c704f06a9480b291155cc33d2203d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0a1c704f06a9480b291155cc33d2203d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/c9575dfe349ef7f8d247688955828879/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/c9575dfe349ef7f8d247688955828879/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/21ab5c7f6d82c2a9d4cb27f59caab773/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/21ab5c7f6d82c2a9d4cb27f59caab773/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d25b29bc0dd389a9b1b42e12da56d83a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/d25b29bc0dd389a9b1b42e12da56d83a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7ed019c99fad4d4f5810675978e9f545/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7ed019c99fad4d4f5810675978e9f545/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/379c12e7ef5780d963cf3fa3886304c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/379c12e7ef5780d963cf3fa3886304c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0b5ddc3c7689566d28d23348a25d876c/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0b5ddc3c7689566d28d23348a25d876c/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b10acee003e4d7560d723da9807fede2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b10acee003e4d7560d723da9807fede2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/59b77b193603790c1a10e609f9b1ee3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/59b77b193603790c1a10e609f9b1ee3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a52da7f3eeb38a2fe2cec41009274158/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a52da7f3eeb38a2fe2cec41009274158/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/c3c7d8e1376d90f28a01a9902ab69d57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/c3c7d8e1376d90f28a01a9902ab69d57/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7393e4f9f2225860367bb054a469f8be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7393e4f9f2225860367bb054a469f8be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/62f3ba4a795b3d9386960706548fa010/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/62f3ba4a795b3d9386960706548fa010/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b9248715898959dd6b2be0db40b6a75c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b9248715898959dd6b2be0db40b6a75c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/77955424755a19e17ad9a65086f9c664/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/77955424755a19e17ad9a65086f9c664/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/05d71d6a7e2dbcb8e7011c6b9eab3982/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/05d71d6a7e2dbcb8e7011c6b9eab3982/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8afc81350e8278e077cab9b2cdba939a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/8afc81350e8278e077cab9b2cdba939a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/4f94ffca8aa0b658ad47db04017b1d71/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/4f94ffca8aa0b658ad47db04017b1d71/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/532692f78f71dafad96feddae3146bd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/532692f78f71dafad96feddae3146bd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/ffd2e6cb1c0b09c07981300c0c047d10/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/ffd2e6cb1c0b09c07981300c0c047d10/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b1336a7c3b61074e6eede37b19f72c85/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/b1336a7c3b61074e6eede37b19f72c85/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a72a93bcc2aae2ac78310fe7260860bf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a72a93bcc2aae2ac78310fe7260860bf/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2b3a5ae353aa4d2e0420084aad09e13/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2b3a5ae353aa4d2e0420084aad09e13/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kihoon/workspace/decibel_tracking/Location_Updates-Background_Foreground-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3b79105b9ad9619756e9028770bd6f89/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/3b79105b9ad9619756e9028770bd6f89/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2b3a5ae353aa4d2e0420084aad09e13/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/f2b3a5ae353aa4d2e0420084aad09e13/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/353ac278bb0f3986e9cf1ee320f620df/AndroidManifest.xml:34:13-50
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:17:18-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/92c9afd0bf15b9167e0c112dcbd6a13c/AndroidManifest.xml:19:17-111
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a4b3da433a2354b4a3e58fef11dc5898/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0e812c9815379673584feb583bbf7e3e/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/12e6fe05254d3e38e7445c0eb983ddb8/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/03c2712bba9e00c7ece0969a5c42f583/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/a13759aebbd5e66cdd02d6ba7de5b848/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/43d3aa5705e81fa65b0a8f127d161b37/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/9cb9bec8b0c421d5fffb3a41f916e0b5/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/7d4ccad60210c1cd57f4b74382402c17/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/2463a25a6b92a0b3c5f0eacc2627fd31/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0b5ddc3c7689566d28d23348a25d876c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/0b5ddc3c7689566d28d23348a25d876c/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/kihoon/.gradle/caches/transforms-2/files-2.1/78953329d82360b321b2525209651c0f/AndroidManifest.xml:27:13-51

@@ -1,0 +1,7 @@
+#Tue Jun 25 19:28:39 KST 2019
+base.0=C\:\\Users\\kiHoon\\AndroidStudioProjects\\Location_Updates-Background_Foreground-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\kiHoon\\AndroidStudioProjects\\Location_Updates-Background_Foreground-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10

@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Jul 01 11:48:32 KST 2019
+1.base=C\:\\Users\\user\\AndroidStudioProjects\\Location_Updates-Background_Foreground-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes2.dex
+0.set=DEX
+0.base=C\:\\Users\\user\\AndroidStudioProjects\\Location_Updates-Background_Foreground-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+1.path=classes.dex

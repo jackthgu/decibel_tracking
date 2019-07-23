@@ -1,0 +1,7 @@
+#Mon Jul 01 11:48:32 KST 2019
+base.0=C\:\\Users\\user\\AndroidStudioProjects\\Location_Updates-Background_Foreground-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\user\\AndroidStudioProjects\\Location_Updates-Background_Foreground-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
