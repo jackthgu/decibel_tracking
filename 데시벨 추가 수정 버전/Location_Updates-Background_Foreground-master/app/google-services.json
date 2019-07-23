@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "324822303089",
+    "firebase_url": "https://background-45ae7.firebaseio.com",
+    "project_id": "background-45ae7",
+    "storage_bucket": "background-45ae7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324822303089:android:8e62910d1454fb47",
+        "android_client_info": {
+          "package_name": "com.atomsindia.local"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324822303089-3nm65kkeo05292leqrfpvvh0kk162vv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atomsindia.local",
+            "certificate_hash": "afd1ee16fe2310c6309ded8e67873063cb5d80ef"
+          }
+        },
+        {
+          "client_id": "324822303089-ubm5qqrgvi0fq7lfuqg33d6rn879es9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvQ5qDrvlomXEJ8POVVREZ3qI-FB87rww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324822303089-ubm5qqrgvi0fq7lfuqg33d6rn879es9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
